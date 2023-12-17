@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+.navigator {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.more {
+    list-style: none;
+    background-color: rgb(27, 26, 26);
+    padding: 20px;
+    display: none;
+    position: absolute;
+}
+
+.button {
+    height: 100%;
+    padding: auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff ;
+}
+
+.button:hover {
+    background-color: white;
+    color: #000;
+}
+
+#button-more:hover .more{
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    background-color: white;
+    color: #000;
+}
